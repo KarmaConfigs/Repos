@@ -3,7 +3,7 @@
 ```xml
 <repository>
   <id>Repos-master</id>
-  <url>https://github.com/KarmaConfigs/LockLogin/raw/mvn-repo/</url>
+  <url>https://github.com/KarmaConfigs/Repos/raw/master/</url>
 </repository>
 
 <dependency>

@@ -2,7 +2,7 @@
 
 ```xml
 <repository>
-  <id>LockLogin-mvn-repo</id>
+  <id>Repos-master</id>
   <url>https://github.com/KarmaConfigs/LockLogin/raw/mvn-repo/</url>
 </repository>
 

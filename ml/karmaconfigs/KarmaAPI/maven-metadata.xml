@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ml.karmaconfigs</groupId>
+  <artifactId>KarmaAPI</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200925220319</lastUpdated>
+  </versioning>
+</metadata>

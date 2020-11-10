@@ -4,24 +4,31 @@ Protect your users accounts<br>
 [More info](https://www.spigotmc.org/resources/gsa-locklogin.75156/)
 
 ## How to?
-Maven
-
+### pom (maven)
 ```xml
-<repository>
-    <id>Repos-LockLogin</id>
+<repositories>
+  <repository>
+    <id>Repos-master</id>
     <url>https://github.com/KarmaConfigs/Repos/raw/master/</url>
- </repository>
+  </repository>
+</repositories>
 
-<dependency>
+<dependencies>
+  <dependency>
     <groupId>ml.karmaconfigs</groupId>
     <artifactId>LockLogin</artifactId>
     <version>1.0.0.8</version>
     <scope>provided</scope>
-</dependency>
+  </dependency>
+</dependencies>
 ```
 
-Gradle
-
+### gradle
 ```gradle
-compile "ml.karmaconfigs:LockLogin:1.0.0.8"
-```
+repositories {
+    maven { url "https://github.com/KarmaConfigs/Repos/raw/master/" }
+}
+
+dependencies {
+    compile "ml.karmaconfigs:LockLogin:1.0.0.8"
+}

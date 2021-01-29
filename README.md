@@ -17,7 +17,7 @@ Protect your users accounts<br>
   <dependency>
     <groupId>ml.karmaconfigs</groupId>
     <artifactId>LockLogin</artifactId>
-    <version>1.0.4.7</version>
+    <version>1.0.5.2</version>
     <scope>provided</scope>
   </dependency>
 </dependencies>
@@ -30,5 +30,5 @@ repositories {
 }
 
 dependencies {
-    compile "ml.karmaconfigs:LockLogin:1.0.4.7"
+    compile "ml.karmaconfigs:LockLogin:1.0.5.2"
 }
